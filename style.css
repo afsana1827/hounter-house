@@ -278,6 +278,7 @@
   margin-top: 250px;
   margin-right: 145px;
   margin-left: 145px;
+  margin-bottom: 52px;
   display: flex;
   gap: 109px;
 }
@@ -341,4 +342,141 @@
   background: var(--green-500, #10b981);
   padding: 12px 16px;
   border: none;
+}
+.sofa {
+  position: relative;
+}
+
+.background-image-1 {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.centered-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered-image-2 {
+  width: 296px;
+  height: 168px;
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+}
+.centered-image-3 {
+  position: absolute;
+  top: 86%;
+  left: 55%;
+}
+.centered-image-4 {
+  position: absolute;
+  top: 86%;
+  left: 78%;
+}
+
+.apartment-1 {
+  justify-content: center;
+  text-align: center;
+}
+.apartment-1 p {
+  color: var(--yellow-500, #f59e0b);
+}
+.apartment-1 h1 {
+  color: var(--mrt-app-headline, #1b1c57);
+}
+.apartment-1 button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display: inline-flex;
+  padding: 12px 16px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 32px;
+  background: var(--green-500, #10b981);
+  color: #fff;
+  font-size: 14px;
+  border: none;
+}
+.container-1 {
+}
+.villa-1 {
+  display: flex;
+}
+.villas {
+  margin-left: 145px;
+}
+.villas-half-1 {
+  display: flex;
+  gap: 32px;
+}
+.villas-half-1 img {
+  width: 200px;
+  height: 144px;
+}
+
+.clock {
+  align-items: center;
+  display: flex;
+  gap: 12px;
+}
+
+.villas-half-2 {
+}
+.face h4 {
+  color: var(--neutral-700, #3c4563);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.clock p {
+  color: var(--neutral-500, #888b97);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.left-img {
+  display: flex;
+  gap: 32px;
+}
+.left-img-1 {
+  gap: 16px;
+}
+
+.left-img-1 img {
+  width: 32px;
+  height: 32px;
+}
+.left-img-1 p {
+  color: #3c4563;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+}
+.villa-1 {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 32px;
+}
+.left-img-1 h6 {
+  color: var(--mrt-app-headline, #1b1c57);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+.vill {
+  display: flex;
+}
+.subscribe img {
+  max-width: 90%;
+  position: relative;
+}
+.subscribe h1 {
 }
